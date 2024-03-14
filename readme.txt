@@ -11,10 +11,11 @@
 4. esegui i comandi scritti in crea_database.txt in Spring Tool Suite:
 	-> Ctrl + Alt + Shift + T
 	
-	SE hai fatto OPZIONALE_
+	SE hai fatto OPZIONALE esegui:
 	- cd ..\crea_database.bat
+	- crea_database.bat
 	
-	SE NON hai fatto OPZIONALE
+	SE NON hai fatto OPZIONALE:
 	- copia, incolla ed esegui uno ad uno i comandi
 	
 5. con pgAdmin4 esegui copiando, incollando e selezionando il contenuto di 
