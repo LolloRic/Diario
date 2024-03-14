@@ -1,0 +1,16 @@
+rem Vai alla directory del binario di PostgreSQL (sostituisci .. con percorso a \pgsql\bin)
+cd ..\pgsql\bin
+
+rem Ferma il server PostgreSQL 
+pg_ctl stop
+
+rem Avvia nuovamente il server PostgreSQL (sostituisci .. con percorso a /database)
+set PGDATA=../database
+pg_ctl start
+
+rem Imposta le variabili di ambiente per PostgreSQL
+set PGHOST=localhost
+set PGPORT=5432
+set PGDATABASE=diario
+set PGUSER=LolloR
+set PGPASSWORD=password
